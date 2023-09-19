@@ -13,7 +13,8 @@
 [CISCN2019 华北赛区 Day1 Web5]CyberPunk-----07----二次注入
 [NCTF2019]SQLi-------------08------正则注入
 [网鼎杯 2018]Comment-------08-----二次注入、git、BF
-
+[网鼎杯2018]Unfinish------   -----二次注入
+October 2019 Twice SQL Injection--二次注入
 ------类型------
 
 
@@ -28,13 +29,16 @@ https://blog.csdn.net/Obs_cure/article/details/113777386
 [SUCTF 2019]CheckIn----------02-------.user.ini--
 [MRCTF2020]你传你🐎呢--------03-------.htaccess-
 [GXYCTF2019]BabyUpload--------03
+[WUSTCTF2020]CV Maker---------07------普通上传
 [SWPUCTF 2018]SimplePHP-------08------上传+phar
+
 
 # 文件包含
 
 Include1-------php://filter-------01
 [极客大挑战 2019]Secret File-----302抓包+伪协议----01
 [BJDCTF2020]ZJCTF，不过如此------data+filter+非法变量转换特性------04
+[BSidesCF 2020]Had a bad day---------目录遍历----------04
 [NPUCTF2020]ezinclude--------08-----临时文件包含php segment fault
 
 >fuzz脚本
@@ -50,15 +54,15 @@ Include1-------php://filter-------01
             print str(i)+':'+chr(i)# 打印出是哪个字符被过滤了
     ```
 
-[BSidesCF 2020]Had a bad day---------目录遍历----------04
+
 
 # 命令执行
 
-[ACTF2020 新生赛]Exec--------01
-[GXYCTF2019]Ping Ping Ping---01
-[RoarCTF 2019]Easy Calc-----02
+[ACTF2020 新生赛]Exec--------01--------无过滤
+[GXYCTF2019]Ping Ping Ping---01--------源码泄露
+[RoarCTF 2019]Easy Calc-----02---------PHP特性代码执行
 [GXYCTF2019]禁止套娃--------03----------无参rce
-[BJDCTF2020]The mystery of ip----04
+[BJDCTF2020]The mystery of ip----04----PHP特性代码执行
 [极客大挑战 2019]RCE ME--------06-------取反RCE
 [FBCTF2019]RCEService---------06-------绕过preg_match
 [红明谷CTF 2021]write_shell----07-------短标签
@@ -77,7 +81,9 @@ Include1-------php://filter-------01
 [CISCN 2019 初赛]Love Math---05
 [De1CTF 2019]SSRF Me---------06
 [SUCTF 2019]Pythonginx-------06-----inda
-[MRCTF2020]套娃--------------06
+[MRCTF2020]套娃--------------06--空格转下划线、preg_match绕过、js代码运行、
+[HarekazeCTF2019]encode_and_encode---08----json_encode()绕过
+[BJDCTF2020]EzPHP---09----PHP特性集合,url解析、换行绕过preg_match、sha强比较、变量覆盖,这道过于繁琐
 
 # 反序列化
 
@@ -95,6 +101,7 @@ Include1-------php://filter-------01
 [护网杯 2018]easy_tornado-------01
 [CISCN2019 华东南赛区]Web11-----06
 [RootersCTF2019]I_<3_Flask------  -----flask模板
+[CISCN2019 华东南赛区]Double Secret---08---jinjia2模板
 
 # CSRF
 
@@ -114,6 +121,10 @@ https://blog.csdn.net/weixin_44677409/article/details/100733581
 [watevrCTF-2019]Cookie Store----07-----cookie认证
 
 
+# Nodejs
+
+[HFCTF2020]JustEscape----09----vm2沙箱逃逸
+
 # XSS
 
 
@@ -127,3 +138,9 @@ https://blog.csdn.net/weixin_44677409/article/details/100733581
 [网鼎杯 2020 朱雀组]Nmap
 [MRCTF2020]PYWebsite-------05
 [BSidesCF 2019]Kookie------06
+[GXYCTF2019]StrongestMind-----09---爬虫脚本
+[GKCTF 2021]easycms-------09----目录扫描，爆破，任意文件下载
+
+# 框架漏洞
+
+[GYCTF2020]EasyThinking-----09-----tp6.0，session getshell,disabe_functions
