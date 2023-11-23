@@ -26,12 +26,13 @@ October 2019 Twice SQL Injection--二次注入
 
 https://blog.csdn.net/Obs_cure/article/details/113777386
 
-[SUCTF 2019]CheckIn----------02-------.user.ini--
-[MRCTF2020]你传你🐎呢--------03-------.htaccess-
+[SUCTF 2019]CheckIn-----------02-------.user.ini--
+[MRCTF2020]你传你🐎呢---------03-------.htaccess-
 [GXYCTF2019]BabyUpload--------03
 [WUSTCTF2020]CV Maker---------07------普通上传
 [SWPUCTF 2018]SimplePHP-------08------上传+phar
-
+[HarekazeCTF2019]Avatar Uploader 1--10--png图片格式考察
+[羊城杯2020]easyphp-----------11-------.htaccess php_value设置
 
 # 文件包含
 
@@ -40,7 +41,6 @@ Include1-------php://filter-------01
 [BJDCTF2020]ZJCTF，不过如此------data+filter+非法变量转换特性------04
 [BSidesCF 2020]Had a bad day---------目录遍历----------04
 [NPUCTF2020]ezinclude--------08-----临时文件包含php segment fault
-
 >fuzz脚本
 
     ```php
@@ -54,6 +54,7 @@ Include1-------php://filter-------01
             print str(i)+':'+chr(i)# 打印出是哪个字符被过滤了
     ```
 
+[N1CTF 2018]eating_cms-------10------读源码+文件名命令执行
 
 
 # 命令执行
@@ -67,6 +68,7 @@ Include1-------php://filter-------01
 [FBCTF2019]RCEService---------06-------绕过preg_match
 [红明谷CTF 2021]write_shell----07-------短标签
 EasyBypass------------------10---------绕过闭合
+[ISITDTU 2019]EasyPHP-------10---------异或取反代码执行
 
 # php特性
 
@@ -85,6 +87,7 @@ EasyBypass------------------10---------绕过闭合
 [MRCTF2020]套娃--------------06--空格转下划线、preg_match绕过、js代码运行、
 [HarekazeCTF2019]encode_and_encode---08----json_encode()绕过
 [BJDCTF2020]EzPHP---09----PHP特性集合,url解析、换行绕过preg_match、sha强比较、变量覆盖,这道过于繁琐
+[SUCTF 2018]annonymous-------11-----create_function匿名函数生成`%00lambda_%d`函数
 
 # 反序列化
 
@@ -96,7 +99,12 @@ EasyBypass------------------10---------绕过闭合
 [安洵杯 2019]easy_serialize_php---05---减字符逃逸-带php变量覆盖特性---(yc2-web7)
 [MRCTF2020]Ezpop------------------05---pop链
 [NPUCTF2020]ReadlezPHP---------05---create_function、call_user_func
-[极客大挑战 2020]Greatphp----------10---
+[极客大挑战 2020]Greatphp----------10---PHP内置类
+[GYCTF2020]Easyphp----------------10---字符逃逸
+[安洵杯 2019]不是文件上传----------11----SQL注入+反序列化
+bestphp's revenge-----------------11---Soap SSRF CRLF
+
+
 
 # 模板注入
 
@@ -128,6 +136,7 @@ https://blog.csdn.net/weixin_44677409/article/details/100733581----------认证�
 # Nodejs
 
 [HFCTF2020]JustEscape----09----vm2沙箱逃逸
+[GYCTF2020]Ez_Express----10----原型链污染
 
 # XSS
 
@@ -147,6 +156,7 @@ https://blog.csdn.net/weixin_44677409/article/details/100733581----------认证�
 [GXYCTF2019]StrongestMind-----09---爬虫脚本
 [GKCTF 2021]easycms-------09----目录扫描，爆破，任意文件下载
 [MRCTF2020]Ezaudit--------09----php_mt_rand
+[FireshellCTF2020]Caas----10-------include预编译处理报错
 
 # 框架漏洞
 
