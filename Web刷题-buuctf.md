@@ -103,18 +103,27 @@ EasyBypass------------------10---------绕过闭合
 [GYCTF2020]Easyphp----------------10---字符逃逸
 [安洵杯 2019]不是文件上传----------11----SQL注入+反序列化
 bestphp's revenge-----------------11---Soap SSRF CRLF
+[GXYCTF2019]BabysqliV3.0----------11---phar反序列化
 
 
 
 # 模板注入
 
-[护网杯 2018]easy_tornado-------01
-[CISCN2019 华东南赛区]Web11-----06
-[RootersCTF2019]I_<3_Flask------  -----flask模板
-[CISCN2019 华东南赛区]Double Secret---08---jinjia2模板
+[护网杯 2018]easy_tornado-------01-----tornado handler.settings
+[CISCN2019 华东南赛区]Web11-----13-----php-smarty模板注入
+[第三章 web进阶]SSTI--------12----无过滤
+[RootersCTF2019]I_<3_Flask------ 13-----flask模板，参数name，无过滤
 [SCTF2019]Flag Shop--------10----Ruby ERB模板注入
+[Flask]SSTI----------------12----简单模板
+[GWCTF 2019]你的名字--------12----拼接执行"~"
+[pasecactf_2019]flask_ssti-12----编码绕过"\x"
+[GYCTF2020]FlaskApp--------12----页面无回显，`{%%}`for循环读
+[NewStarCTF 公开赛赛道]BabySSTI_One--12--拼接执行"~"
+[NewStarCTF 公开赛赛道]BabySSTI_Two--12--过滤点
+[Dest0g3 520迎新赛]EasySSTI--12---全限制，困难！ 
+[CSCCTF 2019 Qual]FlaskLight-12----warnings类，拼接执行"~"
 
-
+[CISCN2019 华东南赛区]Double Secret---08---jinjia2模板【中上】
 # CSRF
 
 [极客大挑战 2019]Http
